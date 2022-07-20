@@ -16,7 +16,7 @@ const Home: NextPage<HomeProps> = ({ memes }) => {
 
   return (
     <div>
-      <div className='mt-10 px-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 content-center justify-items-center gap-y-16 gap-x-10'>
+      <div className='mt-10 px-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 content-center justify-items-center gap-y-16 gap-x-7'>
         {memes.map(meme => {
           return (
             <ImageCard key={meme.id} id={meme.id} name={meme.name} url={meme.url} width={meme.width} height={meme.height} box_count={meme.box_count} />
