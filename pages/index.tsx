@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 import axios from 'axios'
 
 import { Meme } from '../interfaces/meme'
-import { memoryUsage } from 'process'
 
 interface HomeProps {
   memes: Meme[]
