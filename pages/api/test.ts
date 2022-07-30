@@ -4,7 +4,7 @@ import NextCors from "nextjs-cors";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await NextCors(req, res, {
     methods: ['GET'],
-    origin: '*',
+    origin: 'https://google.com',
     optionSuccessStatus: 200
   })
 
