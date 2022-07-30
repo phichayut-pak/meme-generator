@@ -8,7 +8,8 @@ const nextConfig = {
   env: {
     USERNAME: process.env.API_USERNAME,
     PASSWORD: process.env.API_PASSWORD
-  }
+  },
+
 }
 
 module.exports = nextConfig
